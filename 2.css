@@ -1,0 +1,18 @@
+nav{background-color: blueviolet;}
+span{margin: 60px;}
+ul{list-style: none;}
+.father{position: relative;
+    top: 50px;
+    font-size: 30px;}
+.one{position: absolute;
+color: blueviolet;
+top:100px;left: 40px;}
+.two{position: absolute;
+top: 170px;left: 400px;}
+li{margin-top: 20px;}
+.three{position: absolute;
+    top: 201px;}
+.four{position: absolute;
+top: 70px;
+left: 400px;
+overflow: scroll;}
