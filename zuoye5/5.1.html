@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zuoye</title>
+    <style>
+        body{ background-color:white;}
+        p{font-size: 20px;}
+    </style>
+    <script>
+        window.onload=function(){
+            var btn1=document.getElementById('btn1');
+            var b=document.getElementsByTagName('body')[0];
+            btn1.onclick=function(){
+               document.getElementsByTagName('body')[0].style.backgroundColor='lightblue';
+            }
+            var flag=0
+            var btn2=document.getElementById('btn2');
+            var p=document.getElementsByTagName('p')[0];
+            btn2.onclick=function(){
+              p.style.fontSize='50px';
+        }
+    }
+    </script>
+</head>
+<body>
+        <p>加油，打工人！</p>
+        <button type="button", id="btn1">更换背景颜色</button>
+        <button type="button", id="btn2">更换字体大小</button>
+</body>
+</html>
